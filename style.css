@@ -55,3 +55,18 @@ body {
   margin-top: 8px;
   font-size: 0.7em;
 }
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: var(--bg-primary);
+    color: var(--txt-primary);
+    transform: rotate(3deg);
+    transition: .3s ease-in-out;
+}
